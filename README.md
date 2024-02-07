@@ -14,3 +14,14 @@ Original Notebook on Kaggle(with interactives graphs in plotly): https://www.kag
   🇺🇸 World Air Quality shows how the air quality is in regions around the world, showing country and city, as well as latitude and longitude for easy map plotting. The database contains the site's Co2 level, Ozone, and the definitive air quality of PM 2.5 which as he explains "refers to tiny particles or droplets in the air that are 2.5 micrometers or less in width. They can be harmful to human health when inhaled, especially at high concentrations.", all of this data can be pooled to perform air level classification, as was done by me using Random Forest and pre-processing techniques.
 
   Download trained classifier: [https://github.com/Gustavo-michel/Coffee-Quality-Classifier/blob/main/DefectOne_classifier.sav](https://github.com/Gustavo-michel/WorldAirQuality-AQICatergory-Classification/blob/main/classificador_random_forest.sav)
+
+
+### To load a model:
+~~~Python
+ with open('classificador_random_forest.sav', 'rb') as m:
+    model = pickle.load(m)
+~~~
+
+~~~Python
+ prediction = model.predict(data)
+~~~
