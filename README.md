@@ -25,3 +25,13 @@ Original Notebook on Kaggle(with interactives graphs in plotly): https://www.kag
 ~~~Python
  prediction = model.predict(data)
 ~~~
+
+## Insights
+
+![map_of_countries](https://github.com/Gustavo-michel/WorldAirQuality-AQICatergory-Classification/assets/127684360/795c83a9-6ee2-432f-8c21-7a1ebdfc91ef)
+
+Plot with Akkio.
+## 
+![newplot](https://github.com/Gustavo-michel/WorldAirQuality-AQICatergory-Classification/assets/127684360/f203d0af-c876-4f69-ab28-bd65f09e1d28)
+
+Outliers AQI Value detection
